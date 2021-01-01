@@ -1,0 +1,4 @@
+const CLASS = {
+    Object: {},
+    Tween: {}
+}
