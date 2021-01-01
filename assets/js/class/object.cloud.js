@@ -36,11 +36,14 @@ CLASS.Object.Cloud = class Clound{
     }
 
     #createMaterial(param){
+        const texture = new THREE.TextureLoader().load(param.texture)
+        
         const material = new THREE.PointsMaterial({
             color: param.color,
             transparent: true,
             opacity: param.opacity,
-            size: param.size
+            size: param.size,
+            map: texture
         })
         this.material = material
     }

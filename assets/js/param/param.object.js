@@ -91,7 +91,7 @@ param.object = {
             radius: 82,
             seg: 256,
             rand: 0.9,
-            size: 0.2,
+            size: 0.25,
             color: 0xffffff,
             opacity: 1.0,
             vel: {
@@ -102,13 +102,14 @@ param.object = {
             //     min: 65,
             //     max: 20
             // },
+            texture: 'assets/src/point.png',
             layers: NORMAL
         },
         {
             radius: 88,
             seg: 256,
             rand: 0.9,
-            size: 0.2,
+            size: 0.25,
             color: 0xffffff,
             opacity: 1.0,
             vel: {
@@ -119,13 +120,14 @@ param.object = {
             //     min: 65,
             //     max: 20
             // },
+            texture: 'assets/src/point.png',
             layers: NORMAL
         },
         {
             radius: 94,
             seg: 256,
             rand: 0.9,
-            size: 0.2,
+            size: 0.25,
             color: 0xffffff,
             opacity: 1.0,
             vel: {
@@ -136,6 +138,7 @@ param.object = {
             //     min: 65,
             //     max: 20
             // },
+            texture: 'assets/src/point.png',
             layers: NORMAL
         }
     ],
